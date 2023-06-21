@@ -1,5 +1,5 @@
 {
-  "name": "bruhlang",
+  "name": "bruhlang-js",
   "version": "1.0.0",
   "description": "A high performance blazingly fast language based on Node.js",
   "main": "index.js",
@@ -20,6 +20,9 @@
     "url": "https://github.com/BruhLanguage/bruhlang/issues"
   },
   "homepage": "https://github.com/BruhLanguage/bruhlang#readme",
+  "bin": {
+    "bruh": "./bin/bruh.js"
+  },
   "dependencies": {
     "commander": "^11.0.0",
     "fs": "^0.0.1-security",
