@@ -1,0 +1,28 @@
+{
+  "name": "bruhlang",
+  "version": "1.0.0",
+  "description": "A high performance blazingly fast language based on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruhLanguage/bruhlang.git"
+  },
+  "keywords": [
+    "language",
+    "bruhlang"
+  ],
+  "author": "MohsenEMX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BruhLanguage/bruhlang/issues"
+  },
+  "homepage": "https://github.com/BruhLanguage/bruhlang#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
